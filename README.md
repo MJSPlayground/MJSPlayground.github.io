@@ -1,6 +1,3 @@
-# MJSPlayground.github.io
-Portfolio personal como profesor de FP en informática y desarrollador indie de videojuegos. Comparto los proyectos que voy creando para mostrar a mis alumnos que emprender es posible. Aquí podrás ver mis juegos, seguir mis avances y contactar conmigo a través de redes o email.
-
 # 🎮 Portfolio de Desarrollo Indie
 
 ¡Bienvenido! Soy profesor de FP en informática y desarrollador indie de videojuegos. Imparto el módulo de **PMDM (Programación Multimedia y Dispositivos Móviles)** y he iniciado este proyecto con un objetivo claro: **mostrar a mis alumnos que emprender en el desarrollo de videojuegos es posible**.
