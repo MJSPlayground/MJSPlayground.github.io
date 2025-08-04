@@ -1,0 +1,32 @@
+:root {
+    --fuente-frases: 'Kalam', cursive;
+    /*
+    BOOTSTRAP
+    --bs-primary: #e63946;
+    --bs-secondary: #457b9d;
+    --bs-light: #f1faee;
+    --bs-dark: #1d3557;
+
+    MIS VARS
+    --mi-var-como-sea: #2D3443;
+    */
+}
+
+/*
+:root {
+    --primary: #ff8000;
+    --primary_claro: #ff800050;
+    --primary_fondo_tablas: #ff800020;
+    --primary_oscuro: #ff2f00;
+    --secondary: #0f0788;
+    --secondary_claro: #10078888;
+    --tertiary: #00baad;
+    --tertiary_claro: #00baae28;
+    --quaternary: #ffc300;
+    --quaternary_claro: #ffc40050;
+    --primary_negative_texts: white;
+    --lightgray_claro: rgba(211, 211, 211, 0.336);
+    --delete_button: rgb(255, 56, 56);
+    --delete_button_hover: red;
+}
+*/

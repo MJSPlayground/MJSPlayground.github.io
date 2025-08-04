@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 { display: none; }
+
+/**********/
+/* HEADER */
+/**********/
+header img { 
+    width: 26px;
+    height: 30px;
+    margin-inline: 10px;
+}
+
+header .navbar-brand {
+    margin-right: 30px;
+}
+
+header .navbar-text {
+    font-family: var(--fuente-frases);
+}
+
+header .navbar {
+  z-index: 1030; /* igual al de .sticky-top por defecto en Bootstrap */
+}
+
+/************/
+/* CAROUSEL */
+/************/
+#inicio {
+  scroll-margin-top: 80px; /* Ajusta al alto de tu nav */
+}
+
+.carousel-item {
+    height: 900px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  height: 180px;
+  width: 50%;
+  text-align: center;
+  background: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 1) 0%,       /* Centro oscuro */
+        rgba(0, 0, 0, 0.3) 80%,      /* Transición intermedia */
+        rgba(0, 0, 0, 0) 100%         /* Bordes completamente transparentes */
+  );
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-overlay h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Kalam', cursive;
+  margin: 0;
+}
+
+/************/
+/* Sobre Mi */
+/************/
+#sobre-mi .lead {
+    padding-left: 40px;
+}
