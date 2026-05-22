@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MJS Playground</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/kalam.css" rel="stylesheet"/>
+  <link href="css/variables.css" rel="stylesheet"/>
+  <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+  <h1>MJS Playground</h1>
+
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">
+          <img src="images/favicon.png" alt="Logo de MJS Playground" class="d-inline-block align-text-top"/>
+          MJS Playground
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Mostrar navegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarHome">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre m&iacute;</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyecto">El proyecto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#apps">Mis apps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#juegos">Mis juegos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Escr&iacute;beme</a>
+            </li>
+          </ul>
+
+          <span class="navbar-text" style="color:#549ecc">Crear</span>
+          <span class="navbar-text">&nbsp;/&nbsp;</span>
+          <span class="navbar-text" style="color:#d64249">Fallar</span>
+          <span class="navbar-text">&nbsp;/&nbsp;</span>
+          <span class="navbar-text" style="color:#f4a261">Aprender</span>
+          <span class="navbar-text">&nbsp;/&nbsp;</span>
+          <span class="navbar-text" style="color:#2a9d64">Emprender</span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img src="images/Carousel_1.jpg" class="d-block w-100" alt="Cuaderno con bocetos y notas de proyecto"/>
+          <div class="carousel-overlay">
+            <h3>Toda app y todo juego empiezan con una idea y la decisi&oacute;n de construirla.</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/Carousel_2.jpg" class="d-block w-100" alt="Persona programando en un equipo de sobremesa"/>
+          <div class="carousel-overlay gradient-right">
+            <h3>Desarrollo apps Android &uacute;tiles y juegos para Android y PC desde una visi&oacute;n realista y profesional.</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/Carousel_3.jpg" class="d-block w-100" alt="Persona disfrutando de una partida en PC"/>
+          <div class="carousel-overlay gradient-bottom">
+            <h3>Aprender, iterar y publicar: as&iacute; crecen los proyectos independientes que merecen la pena.</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Sobre m&iacute;</h2>
+      <div class="row align-items-center">
+        <div class="col-md-2 mb-4 mb-md-0">
+          <div class="p-2 rounded-circle">
+            <img src="images/sobremi.jpeg" class="img-fluid rounded-circle" alt="Foto personal de Mikel"/>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <p class="lead">
+            Hola, me llamo Mikel y soy profesor de FP en inform&aacute;tica, centrado sobre todo en la programaci&oacute;n. Antes trabaj&eacute; como programador en la empresa privada, y ahora combino mi experiencia t&eacute;cnica con una forma de ense&ntilde;ar muy clara: <strong>aprender haciendo</strong>. Este proyecto nace precisamente de ah&iacute;: quiero demostrar a mi alumnado que con esfuerzo, constancia y tolerancia a la frustraci&oacute;n es posible crear productos reales. Hoy ese camino pasa por desarrollar apps Android &uacute;tiles y videojuegos para Android y PC, manteniendo siempre una idea clara: ense&ntilde;ar tambi&eacute;n es dar ejemplo.
+          </p>
+        </div>
+      </div>
+
+      <div class="row text-center mt-5 justify-content-around">
+        <div class="col-md-3 mb-3">
+          <div class="p-4 border rounded shadow-sm h-100 bg-white">
+            <i class="bi bi-code-slash fs-1 text-primary"></i>
+            <h5 class="mt-3">Experiencia t&eacute;cnica</h5>
+            <p>Programaci&oacute;n profesional y docencia en desarrollo de software con una base muy pr&aacute;ctica.</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="p-4 border rounded shadow-sm h-100 bg-white">
+            <i class="bi bi-lightbulb fs-1 text-warning"></i>
+            <h5 class="mt-3">Aprendiz incansable</h5>
+            <p>Explorando nuevas ideas en apps Android, dise&ntilde;o de producto y videojuegos con vocaci&oacute;n real.</p>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="p-4 border rounded shadow-sm h-100 bg-white">
+            <i class="bi bi-person-check fs-1 text-success"></i>
+            <h5 class="mt-3">Docente comprometido</h5>
+            <p>Si ense&ntilde;o que se puede emprender, tambi&eacute;n quiero recorrer ese camino y compartirlo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyecto" class="py-5">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="eyebrow">Una evoluci&oacute;n natural</span>
+        <h2 class="mb-3">El proyecto</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <p class="lead text-center">
+            Este portfolio es el reflejo de un camino real: un profesor de FP que decide seguir creando fuera del aula. Aqu&iacute; ir&aacute;s encontrando apps Android pensadas para resolver necesidades del d&iacute;a a d&iacute;a y juegos en desarrollo para Android y PC. La intenci&oacute;n no es solo lanzar software, sino <strong>predicar con el ejemplo</strong>, ense&ntilde;ar el proceso con honestidad y demostrar que, con trabajo y constancia, las ideas pueden convertirse en productos reales.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apps" class="section app-section py-5">
+    <div class="container">
+      <div class="section-heading text-center">
+        <span class="eyebrow">Apps Android</span>
+        <h2 class="mb-3">Mis apps</h2>
+        <p class="lead text-muted">
+          Adem&aacute;s de los juegos, tambi&eacute;n quiero construir herramientas &uacute;tiles para el d&iacute;a a d&iacute;a. FlowCash es la primera app destacada dentro de esa l&iacute;nea.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <article class="card border-0 app-showcase-card overflow-hidden">
+            <div class="row g-0 align-items-center">
+              <div class="col-lg-5">
+                <div class="app-visual-wrap">
+                  <img src="images/flowcash-preview.svg" class="img-fluid" alt="Vista previa de la app FlowCash"/>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="card-body p-4 p-xl-5">
+                  <span class="app-badge">
+                    <i class="bi bi-phone"></i>
+                    App Android
+                  </span>
+                  <h3 class="card-title mt-3">FlowCash</h3>
+                  <p class="card-text">
+                    FlowCash es una aplicaci&oacute;n para gestionar finanzas personales con un enfoque claro y pr&aacute;ctico. La idea es registrar ingresos y gastos con rapidez, visualizar el estado de tus cuentas de un vistazo y ayudarte a mantener h&aacute;bitos financieros m&aacute;s conscientes sin perder tiempo en configuraciones complejas.
+                  </p>
+
+                  <div class="feature-pill-list">
+                    <span class="feature-pill"><i class="bi bi-wallet2"></i>Control de gastos</span>
+                    <span class="feature-pill"><i class="bi bi-bar-chart-line"></i>Visi&oacute;n mensual</span>
+                    <span class="feature-pill"><i class="bi bi-piggy-bank"></i>Objetivos de ahorro</span>
+                  </div>
+
+                  <div class="d-flex flex-wrap gap-3 mt-4">
+                    <a class="btn btn-dark btn-lg" href="html/flowcash.html">Ver FlowCash</a>
+                    <a class="btn btn-outline-dark btn-lg" href="html/flowcash-privacy.html">Pol&iacute;tica de privacidad</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="juegos" class="section bg-light py-5">
+    <div class="container text-center">
+      <div class="section-heading text-center">
+        <span class="eyebrow">Android y PC</span>
+        <h2 class="mb-3">Mis juegos</h2>
+        <p class="lead text-muted">
+          Estoy preparando mis primeros proyectos jugables para Android y PC. Pronto habr&aacute; avances, capturas y mucha m&aacute;s informaci&oacute;n.
+        </p>
+      </div>
+
+      <div class="mt-4">
+        <div class="placeholder-card">
+          <i class="bi bi-hourglass-split fs-1 text-danger"></i>
+          <h5 class="mt-3">Pr&oacute;ximamente...</h5>
+          <p class="text-muted mb-0">Sigo picando c&oacute;digo, prototipando mec&aacute;nicas y dando forma a los primeros lanzamientos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Contacto</h2>
+      <p class="lead text-muted mb-4">
+        Si te interesa el proyecto, quieres hablar de desarrollo o simplemente saludar, estar&eacute; encantado de leerte.
+      </p>
+
+      <div class="mb-4">
+        <i class="bi bi-envelope-at-fill fs-2 text-dark"></i>
+        <p class="mt-2 mb-0">Escr&iacute;beme a:</p>
+        <a href="mailto:mjsplayground90@gmail.com"><strong>mjsplayground90@gmail.com</strong></a>
+      </div>
+
+      <p class="mb-3">Tambi&eacute;n puedes encontrarme aqu&iacute;:</p>
+      <div class="d-flex justify-content-center flex-wrap gap-2">
+        <a href="https://x.com/MJSPlayground90" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter-x me-2"></i>Twitter/X
+        </a>
+        <a href="https://mjsplayground.itch.io/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-controller me-2"></i>Itch.io
+        </a>
+        <a href="https://mjsplayground.github.io/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-globe2 me-2"></i>Web
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <small>&copy; 2026 MJS Playground - Apps Android y desarrollo indie</small>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
